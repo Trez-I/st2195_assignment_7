@@ -1,1 +1,2 @@
-# st2195_assignment_7
+# St2195_assignment_7
+## Data Visualisation of Titanic Dataset
