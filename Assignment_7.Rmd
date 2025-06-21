@@ -1,0 +1,15 @@
+---
+title: "Assignment 7"
+author: "Theresa Igweike"
+date: "2025-06-14"
+output: pdf_document
+---
+
+##Import dataset
+```{r}
+
+library('ggplot2')
+library('knitr')
+
+Tan <- read.csv("Titanic.csv", header = TRUE, sep = ",", dec = ".")
+```
