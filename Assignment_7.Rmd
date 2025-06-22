@@ -12,4 +12,15 @@ library('ggplot2')
 library('knitr')
 
 Tan <- read.csv("Titanic.csv", header = TRUE, sep = ",", dec = ".")
+
 ```
+
+##For the relationship bertween gender, ticket class and survival
+```{r}
+ggplot(Tan) +
+  geom_bar(aes(x = Sex, fill = Sex)) + 
+             labs(title = "Ratio of Gender")
+ 
+
+```
+
